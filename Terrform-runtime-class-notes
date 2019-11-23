@@ -71,3 +71,41 @@ https://www.terraform.io/docs/providers/aws/r/security_group.html
 harish
 https://www.terraform.io/docs/configuration-0-11/interpolation.html
 
+=======================================================
+
+18 clear
+519 terrafrom --help
+520 terraform --help
+521 terraform --help plan
+522 terraform --help env
+523 clear
+524 terraform --help plan
+525 pwd
+526 cd …/…
+527 pwd
+528 ls -la
+529 cd terraform/
+530 ls -la
+531 cd test
+532 sl -la
+533 ls -la
+534 pwd
+535 terraform destroy
+536 clear
+537 pwd
+538 ls -la
+539 terraform plan
+540 terraform apply
+541 ls -la
+542 terraform destroy
+543 history
+
+harish
+https://www.terraform.io/docs/providers/aws/r/security_group.html
+
+harish
+https://www.terraform.io/docs/configuration-0-11/interpolation.html
+
+harish => The below is a nice way to begin with a scenario test case
+https://github.com/terraform-providers/terraform-provider-aws/tree/master/examples/elb
+
