@@ -1,0 +1,68 @@
+Dt : 23-Nov-2019
+
+Introduction to : Devops Life cycle
+
+https://github.com/ansible/ansible-examples/blob/master/tomcat-standalone/roles/tomcat/tasks/main.yml
+
+https://www.guru99.com/devops-tutorial.html
+
+https://learn.hashicorp.com/terraform/getting-started/install.html
+
+https://acloudxpert.com/how-to-install-terraform-on-amazon-linux-ami-ec2/
+
+1. Install terraform and configure aws cli for terraform interaction with AWS account.
+---------------------------------------------------------------------------------
+
+  1  yum install terraform
+    2  curl -O https://releases.hashicorp.com/terraform/0.12.13/terraform_0.12.13_linux_amd64.zip
+    3  echo $PATH
+    4  unzip terraform_0.12.13_linux_amd64.zip -d /usr/bin
+    5  terraform -v
+    6  terraform -help
+    7  awscli
+    8  yum install awscli
+    9  aws s3 ls
+   10  aws s3-ls
+   11  aws s3 -ls
+   12  aws s3 ls
+   13  yum install aws-cli
+   14  aws --version
+   15  aws configure
+   16  aws s3 ls
+   17  aws elb ls
+   18  aws ec --help
+   19  aws ec2 --help
+   20  aws ec2 help
+   21  aws ec2 describe-instances
+   22  aws ec2 help | grep describe-instances
+   
+   --------------------------------------------------------
+   
+   terraform --help
+   
+   Common commands:
+    apply              Builds or changes infrastructure
+    console            Interactive console for Terraform interpolations
+    destroy            Destroy Terraform-managed infrastructure
+    env                Workspace management
+    fmt                Rewrites config files to canonical format
+    get                Download and install modules for the configuration
+    graph              Create a visual graph of Terraform resources
+    import             Import existing infrastructure into Terraform
+    init               Initialize a Terraform working directory
+    output             Read an output from a state file
+    plan               Generate and show an execution plan
+    providers          Prints a tree of the providers used in the configuration
+    refresh            Update local state file against real resources
+    show               Inspect Terraform state or plan
+    taint              Manually mark a resource for recreation
+    untaint            Manually unmark a resource as tainted
+    validate           Validates the Terraform files
+    version            Prints the Terraform version
+    workspace          Workspace management
+-----------------------------------------------------------------
+
+terraform --help plan
+
+http://learn.hashicorp.com/terraform/getting-started/build
+
