@@ -66,3 +66,8 @@ terraform --help plan
 
 http://learn.hashicorp.com/terraform/getting-started/build
 
+https://www.terraform.io/docs/providers/aws/r/security_group.html
+
+harish
+https://www.terraform.io/docs/configuration-0-11/interpolation.html
+
